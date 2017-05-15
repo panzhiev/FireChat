@@ -25,10 +25,10 @@ public class SplashActivity extends AppCompatActivity {
                 // check if user is already logged in or not
                 if (FirebaseAuth.getInstance().getCurrentUser() != null) {
                     // if logged in redirect the user to user listing activity
-                    com.tim.firechat.ui.activities.UserListingActivity.startActivity(SplashActivity.this);
+                    UserListingActivity.startActivity(SplashActivity.this);
                 } else {
                     // otherwise redirect the user to login activity
-                    com.tim.firechat.ui.activities.LoginActivity.startIntent(SplashActivity.this);
+                    LoginActivity.startIntent(SplashActivity.this);
                 }
                 finish();
             }

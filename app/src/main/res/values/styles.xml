@@ -15,7 +15,7 @@
     </style>
 
     <style name="AppTheme.NoActionBar.Splash">
-        <item name="android:windowBackground">@drawable/firebase_chat_splash</item>
+        <!--<item name="android:windowBackground">@drawable/firebase_chat_splash</item>-->
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
